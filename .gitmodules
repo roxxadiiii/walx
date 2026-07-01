@@ -1,0 +1,3 @@
+[submodule "content/content/images"]
+	path = content/content/images
+	url = https://github.com/roxxadiiii/walx-images.git
