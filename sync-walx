@@ -1,0 +1,8 @@
+#!/bin/env bash
+cd content/images
+git pull origin main
+
+cd ../..
+git add content/images
+git commit -m "Update gallery images"
+git push
