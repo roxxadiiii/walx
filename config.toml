@@ -19,10 +19,10 @@ disableKinds = ["section", "taxonomy", "term"]
         enable_exif = true
 
         # Optional watermark file for the large images.
-        [params.gallerydeluxe.watermark]
-            image = "images/gopher-hero8.png" # relative to /assets
-            posx  = "left"                    # one of "left", "center", "right"
-            posy  = "bottom"                  # one of "top", "center", "bottom"
+        #[params.gallerydeluxe.watermark]
+        #    image = "images/gopher-hero8.png" # relative to /assets
+        #    posx  = "left"                    # one of "left", "center", "right"
+        #    posy  = "bottom"                  # one of "top", "center", "bottom"
 
 [build]
     [[build.cacheBusters]]
